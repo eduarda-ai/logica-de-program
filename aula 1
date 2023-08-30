@@ -1,1 +1,18 @@
+programa {
+  funcao inicio() {
 
+    inteiro idade
+    escreva("digite sua idade: ")
+    leia(idade)
+
+    se(idade >= 18)
+{
+  escreva("pode tirar habilitação")
+
+}
+  senao{
+    escreva("voce é menor de idade, não pode tirar habilitação")
+  }
+    
+  }
+}
